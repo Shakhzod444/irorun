@@ -1,0 +1,295 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Sono', sans-serif;
+}
+
+body {
+   background-color: #E5E5E5;
+
+}
+
+.container {
+   height: fit-content;
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+header {
+   height: 100px;
+   ;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   /* background-color: orange   ; */
+}
+
+.logo {
+   height: 80px;
+   width: 150px;
+   background-image: url(./irorun_img/logo.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 7%;
+
+}
+
+
+.home {
+   font-size: 20px;
+   font-weight: 400;
+   margin-left: 150px;
+   margin-right: 35px;
+   color: #0082F3;
+}
+
+.concat {
+   font-size: 20px;
+   font-weight: 400;
+   margin-right: 35px;
+}
+
+.privacy {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+
+.leftcon {
+   height: 138px;
+   width: 46px;
+   background-color: #39CDCC;
+   border-bottom-right-radius: 12px;
+   display: flex;
+}
+
+.leftcon p {
+   transform: rotate(90deg);
+   transform-origin: top left;
+   margin-left: 2rem;
+   font-size: 18px;
+   margin-top: 1.4rem;
+}
+
+.get {
+   display: flex;
+   /* justify-content: center; */
+   position: relative;
+}
+
+.get_left {
+   font-size: 38px;
+   font-weight: 700;
+   color: #333333;
+   margin-left: 300px;
+}
+
+.get_left p:nth-child(2) {
+   font-size: 28px;
+   font-weight: 400;
+   margin-top: 20px
+}
+
+.logo_by_rek {
+   display: flex;
+   gap: 16px;
+   margin-top: 20px;
+}
+
+.rek_left {
+   height: 40px;
+   width: 150px;
+   /* background-color: cornflowerblue; */
+   background-image: url(./irorun_img/google.png);
+}
+
+.rek_right {
+   height: 40px;
+   width: 150px;
+   /* background-color: cornflowerblue; */
+   background-image: url(./irorun_img/Frame.png);
+}
+
+.get_right {
+   height: 450px;
+   width: 350px;
+   background-image: url(./irorun_img/chel1.png);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   /* background-color: yellow; */
+   position: absolute;
+   left: 1050px;
+   top: -130px;
+}
+
+.vtoroy {
+   margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.vt_l {
+   height: 400px;
+   width: 300px;
+   background-image: url(./irorun_img/chel2.png);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-right: 150px;
+}
+
+
+.vt_r {
+   font-size: 30px;
+   color: #333333;
+   /* margin-right: 100px; */
+}
+
+.vt_r p:nth-child(2) {
+   margin-top: 10px;
+   font-size: 18px;
+}
+
+/* ////// */
+
+
+.boxes {
+   width: 1300px;
+   display: flex;
+   justify-content: space-between;
+   margin: 50px auto;
+   /* margin-bottom: 500px; */
+   /* background-color: #31C5A1; */
+padding: 0 100px;
+}
+
+h1 {
+   margin: 40px 0 20px;
+   text-align: center;
+   font-size: 40px;
+}
+
+.box {
+   height: 350px;
+   width: 300px;
+   /* background-color: white; */
+   margin-right: 80px;
+   -webkit-box-shadow: 1px 1px 8px 8px rgba(34, 60, 80, 0.2);
+   -moz-box-shadow: 1px 1px 8px 8px rgba(34, 60, 80, 0.2);
+   box-shadow: 1px 1px 8px 8px rgba(34, 60, 80, 0.2);
+}
+
+.box:nth-child(3) {
+   margin-right: 0;
+}
+
+.ttt {
+   height: 25px;
+   width: 100%;
+   background-color: #0082F3;
+}
+
+.ttt2 {
+   height: 25px;
+   width: 100%;
+   background-color: orangered;
+}
+
+.ttt3 {
+   height: 25px;
+   width: 100%;
+   background-color: #31C5A1;
+
+}
+
+.t_logo {
+   height: 60px;
+   width: 52px;
+   /* background-color: firebrick; */
+   margin: 40px auto;
+   background-image: url(./irorun_img/tel.png);
+   background-size: 98%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.t_logo2 {
+   height: 60px;
+   width: 52px;
+   /* background-color: firebrick; */
+   margin: 40px auto;
+   background-image: url(./irorun_img/pismo.png);
+   background-size: 98%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.t_logo3 {
+   height: 60px;
+   width: 52px;
+   /* background-color: firebrick; */
+   margin: 40px auto;
+   background-image: url(./irorun_img/rukopoj.png);
+   background-size: 98%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.zaglav {
+   font-size: 20px;
+   text-align: center;
+   color: #333333;
+   font-weight: 500;
+}
+
+.inf {
+   margin-top: 15px;
+   font-size: 14px;
+   text-align: center;
+   color: #333333;
+   font-weight: 500;
+}
+
+.aque {
+   height: 370px;
+   width: 100%;
+   background-color: #31C5A1;
+   font-size: 34px;
+   text-align: center;
+   padding-top: 120px;
+   /* margin-bottom: 100px; */
+   color: white;
+}
+.rrek {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.white {
+   height: 200px;
+   width: 100%;
+   background-color: white;
+   color: #333333;
+   font-size: 18px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px  150px;
+}
+
+.white p {
+   margin-top: 5px;
+}
+.logo_irorun {
+   height: 60px; width: 150px;
+   background-image: url(./irorun_img/logo.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-top: 10px;
+}
